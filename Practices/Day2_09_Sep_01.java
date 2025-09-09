@@ -1,7 +1,7 @@
 class Day2_09_Sep_01{
 	
 	public static void main(String args[]){
-		/* byte by ;
+		byte by ;
 		by = 127;
 		System.out.println(by);
 		
@@ -25,7 +25,7 @@ class Day2_09_Sep_01{
 		System.out.println(ch4);
 		
 		char ch5 = '\u0041';
-		System.out.println(ch5); */
+		System.out.println(ch5); 
 		
 		char ch6 = 92;
 		System.out.println(ch6);
