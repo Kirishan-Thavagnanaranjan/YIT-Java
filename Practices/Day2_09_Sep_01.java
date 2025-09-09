@@ -35,6 +35,16 @@ class Day2_09_Sep_01{
 		System.out.println(in1);
 		
 		
+		String FirstName = "Kirishan";
+		String LastName = "Thavagnanaranjan";
+		String FullName = FirstName+" "+LastName;
+		System.out.println(FullName);
+		
+		
+		boolean bool = true;
+		System.out.println(bool);
+		
+		
 		
 		
 		
