@@ -107,15 +107,21 @@ class WhileLoop{
 			j++;
 		};
 		
+		System.out.println("Testing");
 		
 		int l=1;		
-		while (l<4){
-			int m=1;
-			while (m<6){
-				System.out.print(m);
-				
+		while (l<6){
+			if (l%2 == 1){
+				int m=1;
+				while (m<6){
+				System.out.print(m);  
 				m++;
-				System.out.println("***********");
+				
+			}
+			System.out.println("");
+			}
+			else{
+			System.out.println("***********");
 			}
 			
 			l++;
