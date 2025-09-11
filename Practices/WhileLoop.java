@@ -107,7 +107,12 @@ class WhileLoop{
 			j++;
 		};
 		
-		System.out.println("Testing");
+	/*12345
+	******
+	12345
+	******
+	12345 */
+
 		
 		int l=1;		
 		while (l<6){
