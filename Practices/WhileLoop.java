@@ -131,6 +131,27 @@ class WhileLoop{
 			
 			l++;
 		};
+		
+		
+		/*
+		11111
+		22222
+		33333
+		44444
+		55555
+		*/
+		
+		int m = 1;
+		
+		while(m<=5){
+			int n=1;
+			while (n<=5){
+			System.out.print(m);
+			n++;
+			}
+			System.out.println("");
+			m++;
+		}
 	}
 }
 		
