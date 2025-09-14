@@ -33,10 +33,7 @@ class Day03_TaxCalculation{
 		else if (productPrice > 500000){
 			percentage = 20;
 		}
-		else {
-			System.out.println("Please enter the correct value...");
-		}
-		
+
 		//calculate the tax 
 		tax = productPrice * (percentage / 100);
 		

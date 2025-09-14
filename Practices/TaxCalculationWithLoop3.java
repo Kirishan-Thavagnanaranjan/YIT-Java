@@ -11,7 +11,7 @@ class TaxCalculationWithLoop{
 		double percentage = 0;
 		
 		Scanner in = new Scanner(System.in);
-		
+
 		
 		while(true){
 			System.out.print("Please enter your prduct price : ");
@@ -30,6 +30,29 @@ class TaxCalculationWithLoop{
 				in.next();
 			}
 			}
+			
+			/* next()
+			1. Finds and Returns the Next Token
+			It reads input until it encounters whitespace (space, tab, newline)
+
+			Returns the token as a String
+
+			Removes the token from the scanner buffer
+			
+			1. Reading Single Words
+			System.out.print("Enter your name: ");
+			String name = in.next(); // Reads until space
+			
+			2. Clearing Invalid Input
+			
+				if (in.hasNextInt()) {
+					int number = in.nextInt();
+				} else {
+					System.out.println("Invalid input!");
+					in.next(); // Clear the invalid token
+				}
+				
+			*/
 		
 		
 		

@@ -10,27 +10,12 @@ class TaxCalculationWithLoop{
 		double netTotal = 0 ;
 		double percentage = 0;
 		
-		/*Scanner in = new Scanner(System.in);
-		System.out.print("Please enter your prduct price : ");
-		productPrice = in.nextDouble();
-		
-		if (productPrice >0){
-			check = false;
-		}
-		 while (check){
-			 System.out.print("Please enter the correct product price : ");
-			 productPrice = in.nextDouble();
-			 if (productPrice >0){
-			 check = false;
-			 }
-		 }*/
 		 
 		 do{
 			 Scanner in = new Scanner(System.in);
 			 System.out.print("Please enter the correct product price : ");
 			 productPrice = in.nextDouble();
-		 }
-		 while(productPrice <= 0 );
+		 } while(productPrice <= 0 );
 			 
 		 
 		 if (( productPrice > 1 ) && ( productPrice <= 100000 )){
