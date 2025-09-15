@@ -73,7 +73,7 @@ class TaxCalculationWithLoop{
 		//calculate the tax 
 		tax = productPrice * (percentage / 100);
 		
-		//calculate the product price with tax 
+		//calculate the product price with tax  
 		
 		netTotal = productPrice + tax;
 		
