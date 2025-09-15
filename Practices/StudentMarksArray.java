@@ -3,7 +3,7 @@ import java.util.Scanner;
 class StudentMarksArray{
 	
 public static void main (String args[]){
-	double[] mark = new double [5];
+	
 	String studentName = "";
 	double validCheck = 0;
 	double total = 0;
@@ -11,10 +11,14 @@ public static void main (String args[]){
 	char credit ;
 	Scanner in = new Scanner(System.in);
 	
+	System.out.print("How many Subject are you calculated : ");
+	int markCount = in.nextInt();	
+	double[] mark = new double [markCount];
+	
 
 		System.out.print("Enter the student name : ");
 		studentName = in.next();
-		for ( int j = 0; j<5; j++){
+		for ( int j = 0; j<mark.length; j++){
 			System.out.print("Enter the " +(studentName) + "'s mark " + (j+1) + " : ");
 			if (in.hasNextDouble()){
 					validCheck = in.nextDouble();
@@ -40,7 +44,7 @@ public static void main (String args[]){
 		
 		System.out.println ("**************************************** \n");
 		
-		average = total/5;
+		average = total/mark.length;
 		if (average >=75){
 			credit = 'A';
 		}
@@ -60,7 +64,7 @@ public static void main (String args[]){
 		
 
 			System.out.println((studentName)+ "'s marks are " );
-				for (int j =0; j<5; j++){
+				for (int j =0; j<mark.length; j++){
 					System.out.println("mark " + (j+1) + " is " + (mark[j]));
 				}
 				System.out.println(studentName +"'s total marks is " + (total));
