@@ -39,7 +39,7 @@ class DynamicStudentsmarks{
 		//Array construct
 		double[][] studentMark= new double[studentNumber][];
 		String[] studentName = new String[studentNumber];
-		double[] total = new double[studentMark[i].length];
+		double[] total = new double[studentMark.length];
 		
 		
 		
@@ -101,10 +101,11 @@ class DynamicStudentsmarks{
 			for (int i =0; i<studentNumber;i++){
 				System.out.println(studentName[i] + "'s marks are ");
 				for(int j=0; j<studentMark[i].length;j++){
-					System.out.println("\t mark " + (j+1) + " is : ");
+					System.out.println("\t mark " + (j+1) + " is : " + (studentMark[i][j]));
 				}
-				System.out.println(studentName+ "'s total mark is : " + total[1]);
-				System.out.println(studentName+ "'s Average mark is : " + (total[i]/studentMark[i].length));
+				System.out.println(studentName[i] + "'s total mark is : " + total[i]);
+				System.out.println(studentName[i] + "'s Average mark is : " + (total[i]/studentMark[i].length));
+				System.out.println("****************************************************************");
 			}				
 					
 			

@@ -11,8 +11,5 @@ class Pen{
 	};
 };
 
-/*
-Pen atlas = new Pen{
-	atlas.brand = "Atlas";
-	*/
+
 	
