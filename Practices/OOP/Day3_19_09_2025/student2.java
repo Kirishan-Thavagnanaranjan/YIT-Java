@@ -2,13 +2,13 @@ class student2{
 	int id ;
 	String name;
 	
-	void setStudent(int ids,String names){
-		id=ids;
-		name = names;
+	void setStudent(int id,String name){
+		this.id=id;
+		this.name = name;
 	}
 	
 	void getStudent(){
-		System.out.println("id : " +id);
-		System.out.println("name : "+name);
+		System.out.println("id : " +this.id);
+		System.out.println("name : "+this.name);
 	}
 }
