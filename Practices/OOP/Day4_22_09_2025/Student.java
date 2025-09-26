@@ -56,11 +56,11 @@ class Student{
 		System.out.println("Id : " +this.id);
 		System.out.println("Name : "+ this.name);
 		System.out.println("mark 1 : "+this.mark1 + " mark 2 : "+this.mark2 + " mark 3 : " + this.mark3);
-		int total = calTotal();
+		int total = this.calTotal();
 		System.out.println("Total is: " +total);
-		double avg = calAvg(total);
+		double avg = this.calAvg(total);
 		System.out.println("Average is : "+avg);
-		char result = getResult(avg);
+		char result = this.getResult(avg);
 		System.out.println("Result is : " +result);
 	}
 }
