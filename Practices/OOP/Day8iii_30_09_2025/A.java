@@ -2,7 +2,7 @@ package PackA;
 
 public class A{
 	int x;
-	public A(){
+	protected A(){
 		this.x= 30;
 	}
 	
